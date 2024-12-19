@@ -1,0 +1,2 @@
+The Api key was hardcoded in the lambda function but generally it is not recommended.
+AWS recommended api key be stored in aws secrets managers. This is for security concerns
