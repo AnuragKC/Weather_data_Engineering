@@ -9,7 +9,7 @@ table = dynamodb.Table("weather")
 
 def get_weather_data(city):  
     api_url = "http://api.weatherapi.com/v1/current.json"
-    api_key = "8ea0b14b8ba94d5fb5d205945241312"  # Replace with your actual API key
+    api_key = "api_key"  # replace her with here api key u got from weatherapi
     params = {  
         "q": city,    
         "key": api_key
